@@ -1,0 +1,195 @@
+Federated Learning Cycle 1
+Training client_1 model
+Train Loss client_1: 0.5423429367857745
+Validation Accuracy client_1: 68.58%
+Train Loss client_1: 0.6110838942569146
+Validation Accuracy client_1: 32.09%
+Train Loss client_1: 0.5910887224727667
+Validation Accuracy client_1: 34.12%
+Test Accuracy client_1: 37.58%
+Training client_2 model
+Train Loss client_2: 0.5895889983690914
+Validation Accuracy client_2: 77.03%
+Train Loss client_2: 0.7068583259785942
+Validation Accuracy client_2: 32.43%
+Train Loss client_2: 0.7159008148435398
+Validation Accuracy client_2: 32.43%
+Test Accuracy client_2: 30.87%
+Training client_3 model
+Train Loss client_3: 0.5805047025778806
+Validation Accuracy client_3: 73.31%
+Train Loss client_3: 0.6457237243135167
+Validation Accuracy client_3: 34.12%
+Train Loss client_3: 0.6261324392051173
+Validation Accuracy client_3: 34.12%
+Test Accuracy client_3: 36.91%
+Training client_4 model
+Train Loss client_4: 0.5050519309824821
+Validation Accuracy client_4: 68.92%
+Train Loss client_4: 0.7492293522397591
+Validation Accuracy client_4: 33.78%
+Train Loss client_4: 0.8598212594582564
+Validation Accuracy client_4: 33.78%
+Test Accuracy client_4: 29.53%
+Weighted average model weights computed
+Testing FL model
+|| Test Accuracy of client_1 with Federated weights on client_1 test_dataset after cycle 0: 30.87%
+||Accuracy on unseen data distributions||
+||| Test Accuracy of client_1 with Federated weights on client_4 test_dataset after cycle 1: 36.58%
+||| Test Accuracy of client_1 with own weights on client_4 test_dataset after cycle 1: 36.58%
+Federated Learning Cycle 2
+Training client_1 model
+Train Loss client_1: 0.4272958448807226
+Validation Accuracy client_1: 77.70%
+Train Loss client_1: 0.7524805629244767
+Validation Accuracy client_1: 34.12%
+Train Loss client_1: 0.6864280048178661
+Validation Accuracy client_1: 34.12%
+Test Accuracy client_1: 31.54%
+Training client_2 model
+Train Loss client_2: 0.4794125012617049
+Validation Accuracy client_2: 67.57%
+Train Loss client_2: 0.8872027135981396
+Validation Accuracy client_2: 34.46%
+Train Loss client_2: 0.7419227434514832
+Validation Accuracy client_2: 34.46%
+Test Accuracy client_2: 33.89%
+Training client_3 model
+Train Loss client_3: 0.3935567847387737
+Validation Accuracy client_3: 47.64%
+Train Loss client_3: 0.9407249040045087
+Validation Accuracy client_3: 27.70%
+Train Loss client_3: 0.7698636809209077
+Validation Accuracy client_3: 27.70%
+Test Accuracy client_3: 33.22%
+Training client_4 model
+Train Loss client_4: 0.4737606231319844
+Validation Accuracy client_4: 38.51%
+Train Loss client_4: 0.8460092853568898
+Validation Accuracy client_4: 30.74%
+Train Loss client_4: 0.7222864540349032
+Validation Accuracy client_4: 30.74%
+Test Accuracy client_4: 28.19%
+Weighted average model weights computed
+Testing FL model
+|| Test Accuracy of client_1 with Federated weights on client_1 test_dataset after cycle 1: 65.44%
+||Accuracy on unseen data distributions||
+||| Test Accuracy of client_1 with Federated weights on client_4 test_dataset after cycle 2: 69.13%
+||| Test Accuracy of client_1 with own weights on client_4 test_dataset after cycle 2: 70.13%
+Federated Learning Cycle 3
+Training client_1 model
+Train Loss client_1: 0.2992540123836768
+Validation Accuracy client_1: 91.89%
+Train Loss client_1: 0.6516137527798882
+Validation Accuracy client_1: 66.55%
+Train Loss client_1: 0.6117006618305987
+Validation Accuracy client_1: 66.55%
+Test Accuracy client_1: 72.48%
+Training client_2 model
+Train Loss client_2: 0.34318460432498765
+Validation Accuracy client_2: 69.26%
+Train Loss client_2: 0.5980975325781629
+Validation Accuracy client_2: 49.66%
+Train Loss client_2: 0.5743621083505759
+Validation Accuracy client_2: 30.74%
+Test Accuracy client_2: 29.53%
+Training client_3 model
+Train Loss client_3: 0.37047939549859504
+Validation Accuracy client_3: 73.31%
+Train Loss client_3: 0.6400497889311867
+Validation Accuracy client_3: 29.39%
+Train Loss client_3: 0.6122718977048961
+Validation Accuracy client_3: 29.39%
+Test Accuracy client_3: 32.21%
+Training client_4 model
+Train Loss client_4: 0.3425803738535097
+Validation Accuracy client_4: 79.73%
+Train Loss client_4: 0.7088409789386041
+Validation Accuracy client_4: 34.46%
+Train Loss client_4: 0.6953384806863312
+Validation Accuracy client_4: 34.46%
+Test Accuracy client_4: 29.19%
+Weighted average model weights computed
+Testing FL model
+|| Test Accuracy of client_1 with Federated weights on client_1 test_dataset after cycle 2: 25.84%
+||Accuracy on unseen data distributions||
+||| Test Accuracy of client_1 with Federated weights on client_4 test_dataset after cycle 3: 68.79%
+||| Test Accuracy of client_1 with own weights on client_4 test_dataset after cycle 3: 68.79%
+Federated Learning Cycle 4
+Training client_1 model
+Train Loss client_1: 0.3347124284536013
+Validation Accuracy client_1: 77.36%
+Train Loss client_1: 0.8345488037480363
+Validation Accuracy client_1: 51.35%
+Train Loss client_1: 0.8491999170354373
+Validation Accuracy client_1: 29.73%
+Test Accuracy client_1: 30.20%
+Training client_2 model
+Train Loss client_2: 0.3235977969993652
+Validation Accuracy client_2: 77.70%
+Train Loss client_2: 0.5826134680839699
+Validation Accuracy client_2: 26.69%
+Train Loss client_2: 0.5503440932872411
+Validation Accuracy client_2: 28.38%
+Test Accuracy client_2: 31.21%
+Training client_3 model
+Train Loss client_3: 0.3445296328910778
+Validation Accuracy client_3: 80.41%
+Train Loss client_3: 0.6304451222447321
+Validation Accuracy client_3: 32.77%
+Train Loss client_3: 0.6072660873786143
+Validation Accuracy client_3: 32.77%
+Test Accuracy client_3: 35.91%
+Training client_4 model
+Train Loss client_4: 0.3248036621018587
+Validation Accuracy client_4: 85.14%
+Train Loss client_4: 0.7159796005905493
+Validation Accuracy client_4: 31.76%
+Train Loss client_4: 0.5889543389722393
+Validation Accuracy client_4: 31.76%
+Test Accuracy client_4: 32.55%
+Weighted average model weights computed
+Testing FL model
+|| Test Accuracy of client_1 with Federated weights on client_1 test_dataset after cycle 3: 31.21%
+||Accuracy on unseen data distributions||
+||| Test Accuracy of client_1 with Federated weights on client_4 test_dataset after cycle 4: 72.48%
+||| Test Accuracy of client_1 with own weights on client_4 test_dataset after cycle 4: 72.48%
+Federated Learning Cycle 5
+Training client_1 model
+Train Loss client_1: 0.32037439013596297
+Validation Accuracy client_1: 42.23%
+Train Loss client_1: 0.6672706223447858
+Validation Accuracy client_1: 33.78%
+Train Loss client_1: 0.595195782675919
+Validation Accuracy client_1: 33.78%
+Test Accuracy client_1: 31.54%
+Training client_2 model
+Train Loss client_2: 0.3009661742508282
+Validation Accuracy client_2: 82.09%
+Train Loss client_2: 0.7629139359154222
+Validation Accuracy client_2: 30.07%
+Train Loss client_2: 0.6886771558336132
+Validation Accuracy client_2: 30.07%
+Test Accuracy client_2: 33.22%
+Training client_3 model
+Train Loss client_3: 0.31765680983716477
+Validation Accuracy client_3: 82.09%
+Train Loss client_3: 1.0102399860442073
+Validation Accuracy client_3: 66.55%
+Train Loss client_3: 0.9405787603112122
+Validation Accuracy client_3: 30.74%
+Test Accuracy client_3: 34.56%
+Training client_4 model
+Train Loss client_4: 0.301875512645629
+Validation Accuracy client_4: 67.91%
+Train Loss client_4: 0.635009238837167
+Validation Accuracy client_4: 28.38%
+Train Loss client_4: 0.5162167860301439
+Validation Accuracy client_4: 28.38%
+Test Accuracy client_4: 32.21%
+Weighted average model weights computed
+Testing FL model
+|| Test Accuracy of client_1 with Federated weights on client_1 test_dataset after cycle 4: 31.88%
+||Accuracy on unseen data distributions||
+||| Test Accuracy of client_1 with Federated weights on client_4 test_dataset after cycle 5: 26.51%
+||| Test Accuracy of client_1 with own weights on client_4 test_dataset after cycle 5: 26.51%
